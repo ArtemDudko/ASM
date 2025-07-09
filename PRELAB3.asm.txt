@@ -1,0 +1,42 @@
+;
+; AssemblerApplication2.asm
+;
+; Created: 2/7/2022 9:30:50 AM
+; Author : Artem Dudko + Nikolas Tapanainen
+;
+
+
+; Replace with your application code
+start:
+	
+
+
+
+	LDI   Y, 0X200  ;FIRST LOCATION IN SRAM
+	LDI   WH, HIGH(0X3E0)
+	LDI   WL,LOW(0X3E0)  ;FIRST VALUE EEPROM
+	LDI   R16,20  ;COUNTER
+HERE:
+	DEC   R16
+	CALL  READROM
+	BRNE  HERE
+
+READROM:
+
+	SBIC  EECR,EEPE   ;READ TO EEPROM
+	RJMP  READROM
+	OUT   EEARH,R25
+	OUT   EEARL,R24
+	SBI   EECR,EERE
+	IN    W,EEDR
+
+	EOR   R25,0X3C   ; DECRYPT
+	EOR   R24,0X3C
+
+
+	LDI   YH,HIGH(R25)    ;WRITE TO SRAM
+	LDI   YL,LOW(R24)
+L1: ST Y+,R16
+	BRNE  L1
+
+RET

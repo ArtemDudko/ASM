@@ -1,0 +1,44 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328PB"</DEVICE>
+ <WORKING_DIR>C:\Users\adudk\Documents\Atmel Studio\7.0\ECE263Prelab4\ECE263Prelab4\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Installs\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Installs\AtmelStudio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\adudk\Documents\Atmel Studio\7.0\ECE263Prelab4\ECE263Prelab4\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Installs\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m328PBdef.inc</FILE>
+  <FILE>C:/Installs\AtmelStudio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m328pbdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\adudk\Documents\Atmel Studio\7.0\ECE263Prelab4\ECE263Prelab4\Debug\ECE263Prelab4.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>ECE263Prelab4.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>ECE263Prelab4.map</FILE>
+  <FILE>ECE263Prelab4.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Users\adudk\Documents\Atmel Studio\7.0\ECE263Prelab4\ECE263Prelab4\main.asm</FILE><LINE>64</LINE></RESET>
+  <BOUNCEDELAY><FILE>C:\Users\adudk\Documents\Atmel Studio\7.0\ECE263Prelab4\ECE263Prelab4\main.asm</FILE><LINE>193</LINE></BOUNCEDELAY>
+  <MAINLOOP><FILE>C:\Users\adudk\Documents\Atmel Studio\7.0\ECE263Prelab4\ECE263Prelab4\main.asm</FILE><LINE>77</LINE></MAINLOOP>
+  <PAUSE><FILE>C:\Users\adudk\Documents\Atmel Studio\7.0\ECE263Prelab4\ECE263Prelab4\main.asm</FILE><LINE>114</LINE></PAUSE>
+  <INPUT2VAL><FILE>C:\Users\adudk\Documents\Atmel Studio\7.0\ECE263Prelab4\ECE263Prelab4\main.asm</FILE><LINE>124</LINE></INPUT2VAL>
+  <INPUTPAT><FILE>C:\Users\adudk\Documents\Atmel Studio\7.0\ECE263Prelab4\ECE263Prelab4\main.asm</FILE><LINE>220</LINE></INPUTPAT>
+  <NEXTPAT><FILE>C:\Users\adudk\Documents\Atmel Studio\7.0\ECE263Prelab4\ECE263Prelab4\main.asm</FILE><LINE>129</LINE></NEXTPAT>
+  <DISPLAY_ASCII><FILE>C:\Users\adudk\Documents\Atmel Studio\7.0\ECE263Prelab4\ECE263Prelab4\main.asm</FILE><LINE>137</LINE></DISPLAY_ASCII>
+  <ASCIISYMBOLS><FILE>C:\Users\adudk\Documents\Atmel Studio\7.0\ECE263Prelab4\ECE263Prelab4\main.asm</FILE><LINE>212</LINE></ASCIISYMBOLS>
+  <DISPLAY_VAL2SS><FILE>C:\Users\adudk\Documents\Atmel Studio\7.0\ECE263Prelab4\ECE263Prelab4\main.asm</FILE><LINE>152</LINE></DISPLAY_VAL2SS>
+  <VAL2SS><FILE>C:\Users\adudk\Documents\Atmel Studio\7.0\ECE263Prelab4\ECE263Prelab4\main.asm</FILE><LINE>166</LINE></VAL2SS>
+  <DSP1><FILE>C:\Users\adudk\Documents\Atmel Studio\7.0\ECE263Prelab4\ECE263Prelab4\main.asm</FILE><LINE>162</LINE></DSP1>
+  <DSP2><FILE>C:\Users\adudk\Documents\Atmel Studio\7.0\ECE263Prelab4\ECE263Prelab4\main.asm</FILE><LINE>163</LINE></DSP2>
+  <RESUMEINPUT><FILE>C:\Users\adudk\Documents\Atmel Studio\7.0\ECE263Prelab4\ECE263Prelab4\main.asm</FILE><LINE>178</LINE></RESUMEINPUT>
+  <SSPATTERN><FILE>C:\Users\adudk\Documents\Atmel Studio\7.0\ECE263Prelab4\ECE263Prelab4\main.asm</FILE><LINE>204</LINE></SSPATTERN>
+  <DELAY1><FILE>C:\Users\adudk\Documents\Atmel Studio\7.0\ECE263Prelab4\ECE263Prelab4\main.asm</FILE><LINE>194</LINE></DELAY1>
+  <DELAY2><FILE>C:\Users\adudk\Documents\Atmel Studio\7.0\ECE263Prelab4\ECE263Prelab4\main.asm</FILE><LINE>195</LINE></DELAY2>
+ </LABELS>
+</ASSEMBLER_INFO>
